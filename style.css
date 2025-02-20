@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+#inscription{
+    box-shadow: 1px -3px 6px 9px rgba(239,231,231,0.47);
+    border-radius: 10px;
+    padding: 15px;
+    height: 1050px;
+}
+input{
+    border-bottom: px dashed black;width: 650px;
+    outline: none;
+    height: 50px;
+    background-color: rgb(245, 241, 241);
+    border-radius: 10px;
+}
+textarea{
+    width: 650px;
+    height: 200px;
+    background-color: rgb(245, 241, 241);
+    border-radius: 5px;
+}
+h1{
+    font-size: 250%;
+    font-weight: bold;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.sos{
+    color: rgb(14, 7, 7);
+    width: ;
+    height: 40px;
+
+}
+button{
+    background-color: darkcyan;
+    height: 60px;
+    width: 160px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    position: relative;
+    top: 30px;
+    color: white;
+    cursor: pointer;
+    
+    
+    
+    transition: 0.5ms;
+    
+}
+button:hover{
+    background-color: darkolivegreen;
+}
+input:hover{
+    border-color: darkcyan;
+    border-style: 3px solid;
+
+}
+.hidden{
+    display: none;
+}
+

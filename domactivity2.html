@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js " defer></script>
+    
+</head>
+<body>
+    <section>
+        <form id="inscription">
+            <h1>DCLIC</h1>
+            <h2 class="sos">Fiche d'inscription</h2>
+            <h2>INFORMATIONS PERSONNELLES</h2>
+            <h3>Nom</h3>
+            <input id="nom" type="text"  placeholder="">
+            <h3>Prénom</h3>
+            <input id="prenom" type="text" placeholder="">
+            <h3>Date de naisance</h3>
+            <input id="date_naissance" type="date" placeholder="">
+            <h3>Numéro de téléphone</h3>
+            <input type="tel" id="telephone" placeholder="01XXXXXXXX" pattern="[0-9]{10}" >
+            <h3>Motivation</h3>
+            <textarea name="text" id="motivation" placeholder="Saisissez ici s'il vous plait"></textarea>
+            <button type="submit">Envoyez</button>
+            
+        
+
+        </form>
+        
+
+    </section>
+    <section id="resultat" class="hidden">
+        <h2>Les information saisies: </h2>
+        <p id="esNom">Nom:</p>
+        <p id="esPrenom">Prenom:</p>
+        <p id="esDate">Date de naissance:</p>
+        <p id="esTelephone">Numéro de téléphone</p>
+        <p id="esMotivation">Motivation:</p>
+    </section>
+      
+</body>
+
+</html>
+</body>
+</html>
